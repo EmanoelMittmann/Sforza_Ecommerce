@@ -1,0 +1,36 @@
+{
+    "overrides": [
+        {
+            "files":["*.tsx","components/**/*.tsx"],
+            "options": {
+                "singleQuote": true,
+                "trailingComma": "es5",
+                "tabWidth": 1,
+                "semi": false,
+                "jsxSingleQuote": true,
+                "bracketSpacing": false,
+                "useTabs": true,
+                "endOfLine": "auto",
+                "singleAttributePerLine": true,
+                "bracketSameLine": false,
+                "arrowParens": "always"
+            }
+        },
+        {
+            "files":["*.tsx","app/**/*.tsx"],
+            "options": {
+                "singleQuote": true,
+                "trailingComma": "es5",
+                "tabWidth": 1,
+                "semi": false,
+                "jsxSingleQuote": true,
+                "bracketSpacing": false,
+                "useTabs": true,
+                "endOfLine": "auto",
+                "singleAttributePerLine": true,
+                "bracketSameLine": false,
+                "arrowParens": "always"
+            }
+        }
+    ]
+}
